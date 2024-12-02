@@ -7,5 +7,10 @@ KmPercorsi INT NOT NULL,
 Prezzo DECIMAL(10, 2) NOT NULL,
 Colore VARCHAR(50),
 TipoCarburante VARCHAR(50),
-)
+NumeroPorte INT,
+DataInserimento DATETIME DEFAULT CURRENT_TIMESTAMP,
+Stato VARCHAR(50) NOT NULL,
+Descrizione TEXT,
+FotoURL VARCHAR(255)
+);
 
